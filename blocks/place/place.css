@@ -1,0 +1,18 @@
+.place {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+@media screen and (min-width: 768px) {
+    .place {
+        margin-bottom: 73px;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .place {
+        margin-bottom: 80px;
+    }
+}
