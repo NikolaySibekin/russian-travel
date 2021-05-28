@@ -21,4 +21,4 @@
 
 ## Проектная работа выложена на gh-pages: 
 
-* [Ссылка на проект](https://NikolaySibekin.github.io/russian-travel/index.html)
+* [Ссылка на проект](https://nikolaysibekin.github.io/russian-travel/index.html)
