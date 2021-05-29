@@ -1,7 +1,5 @@
 .footer__link {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
+    min-width: 186px;
     padding-bottom: 32px;
     font-weight: normal;
     font-size: 24px;
@@ -10,16 +8,26 @@
     text-decoration: none;
 }
 
+.footer__link:last-of-type {
+    padding-bottom: 48px;
+}
+
 .footer__link:hover {
     opacity: .5;
 }
 
-
 @media screen and (min-width: 768px) {
     .footer__link {
+        min-width: 50px;
+        padding-right: 18px;
         padding-bottom: 24px;
         font-size: 16px;
         line-height: 18px;
+    }
+
+    .footer__link:last-of-type {
+        padding-right: 0;
+        padding-bottom: 32px;
     }
 }
 

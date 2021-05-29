@@ -1,4 +1,6 @@
 .places {
+    display: flex;
+    flex-wrap: wrap;
     width: 100vw;
     margin: 0 auto;
 }
@@ -6,6 +8,7 @@
 @media screen and (min-width: 768px) {
     .places  {
         width: calc(100vw - 48px);
+        margin-top: 0;
     }
 }
 

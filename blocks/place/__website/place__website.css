@@ -3,20 +3,24 @@
     flex-direction: column;
     flex-wrap: wrap;
     width: 288px;
-    margin: 32px 16px;
-    box-sizing: border-box;
-    overflow: hidden;
+    padding-left: 16px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 @media screen and (min-width: 768px) {
     .place__website {
-        width: 352px;
-        margin-left: 0;
+        width: 340px;
+        padding: 0;
+        padding-top: 48px;
+        margin: 0;
+        margin-bottom: 48px;
     }
 }
 
 @media screen and (min-width: 1024px) {
     .place__website {
         width: 456px;
+        padding-top: 96px;
     }
 }
