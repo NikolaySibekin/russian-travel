@@ -1,19 +1,25 @@
 .lead {
-    width: 100vw;
+    max-width: 320px;
     margin: 0 auto;
     text-align: center;
     box-sizing: border-box;
     overflow: hidden;
 }
+
+@media screen and (min-width: 768px) {
+  .lead {
+    max-width: 768px;
+  }
+}
   
   @media screen and (min-width: 1024px) {
     .lead {
-      width: calc(100vw - 96px);
+      max-width: 928px;
     }
   }
   
   @media screen and (min-width: 1280px) {
     .lead {
-        width: calc(100vw - 296px);
+        max-width: 984px
     }
   }
