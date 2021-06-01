@@ -1,4 +1,5 @@
 .lead__image {
+    position: relative;
     background-image: url(../../../images/lead-polka.jpg);
     width: 100vw;
     height: 62.5vw;
@@ -8,15 +9,15 @@
 }
 
 @media screen and (min-width: 1024px) {
-    .cover__background {
+    .lead__image {
         max-width: 928px;
         max-height: 580px;
         margin: 0 auto;
     }
 }
 
-@media screen and (min-width: 1280px) {
-    .cover__background {
+@media screen and (min-width: 1024px) {
+    .lead__image {
         max-width: 984px;
         max-height: 615px;
         margin: 0 auto;

@@ -24,5 +24,13 @@
 @media screen and (min-width: 1280px) {
     .photo-grid {
         grid-template-columns: repeat(4, 1fr);
+        margin: 92px 48px;
+    }
+}
+
+@media screen and (min-width: 1560px) {
+    .photo-grid {
+        width: 1280px;
+        margin: 92px auto;
     }
 }

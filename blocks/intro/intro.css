@@ -1,6 +1,5 @@
 .intro {
-    position: relative;
-    width: calc(100vw - 32px);
+    width: 320px;
     padding-bottom: 64px;
     margin: 0 16px;
     text-align: left;
@@ -8,7 +7,7 @@
 
 @media screen and (min-width: 768px) {
     .intro {
-        width: calc(100vw - 48px);
+        width: 768px;
         padding-bottom: 88px;
         margin: 0 24px;
     }
@@ -16,15 +15,15 @@
 
 @media screen and (min-width: 1024px) {
     .intro {
-        width: calc(100vw - 334px);
+        width: 1024px;
         padding-bottom: 92px;
-        margin-left: 48px;
+        margin: 0 286px 0 48px;
     }
 }
 
 @media screen and (min-width: 1280px) {
     .intro {
-        min-width: 690px;
-        margin-left: 148px;
+        width: 1280px;
+        margin: 0 442px 0 148px;
     }
 }
