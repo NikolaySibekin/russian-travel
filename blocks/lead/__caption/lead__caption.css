@@ -1,9 +1,32 @@
 .lead__caption {
-    position: relative;
     max-width: 158px;
     font-weight: normal;
     font-size: 10px;
     line-height: 14px;
+    text-align: left;
     text-transform: uppercase;
-    padding-left: 0;
+    padding-left: 16px;
+    margin-top: 8px;
+    margin-bottom: 0;
+    box-sizing: border-box;
+}
+
+
+@media screen and (min-width: 768px) {
+    .lead__caption  {
+        padding-left: 24px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .lead__caption  {
+        padding-left: 0;
+        margin-left: 4.7%;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .lead__caption  {
+        margin-left: 11.6%;
+    }
 }
