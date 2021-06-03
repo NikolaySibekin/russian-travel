@@ -1,5 +1,5 @@
 .places {
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
