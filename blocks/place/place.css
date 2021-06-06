@@ -1,5 +1,5 @@
 .place {
-    width: 100%;
+    min-width: 320px;
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto 50px;
